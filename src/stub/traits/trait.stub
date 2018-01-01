@@ -1,0 +1,11 @@
+<?php
+
+	namespace App\Traits;	
+
+	trait ProfilPenggunaTrait
+	{
+		public function changePicture(\Request $request)
+		{
+			return 'change picture';
+		}
+	}
