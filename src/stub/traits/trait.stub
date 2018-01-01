@@ -4,6 +4,15 @@
 
 	trait ProfilPenggunaTrait
 	{
+		/**
+		* contoh menambahkan method "changePicture" pada Class : 
+		* \Bantenprov\ProfilPengguna\Http\Controllers\ProfilPenggunaController
+		* 
+		* untuk penggunaan pada route :
+		* Route::get('profil/change-picture','\Bantenprov\ProfilPengguna\Http\Controllers\ProfilPeng*gunaController@changePicture')->name('profil.change-picture');
+		*
+		*/
+
 		public function changePicture(\Request $request)
 		{
 			return 'change picture';
