@@ -2,11 +2,15 @@
 Profil Pengguna Aplikasi Pemerintah Provinsi Banten
 
 ### install
-install kanekes :
-`composer create-project bantenprov/kanekes project_name "v0.3.0"`
-install package :
-`composer require bantenprov/profil-pengguna:dev-master`
 
+###install kanekes :
+``` sh
+$ composer create-project bantenprov/kanekes project_name "v0.3.0"`
+```
+###install package :
+```sh
+$ composer require bantenprov/profil-pengguna:dev-master`
+```
 ### require
 `kanekes v0.3.0`
 
